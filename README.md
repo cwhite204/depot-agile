@@ -1,24 +1,15 @@
-# README
+# Depot
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A web app made by following the insructions 
+in the book Agile Web Development with rails 5.
 
-Things you may want to cover:
+* Ruby version = 2.4.0
 
-* Ruby version
+* Run 'bundle install' to install the neccessary gems
 
-* System dependencies
+* Run 'rake db:migrate' to create the database'
 
-* Configuration
+* There are tests that have been created which you can run by using the 'rails test' command followed by the test file
 
-* Database creation
+* Uses WebSocket so that the products arent reloaded if there is no new ones added to the database.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
